@@ -1,0 +1,247 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+body
+{
+	font-family: 'Quicksand', sans-serif;
+	background-color: #161725!important;
+	height: 100vh;
+	width: 100%;
+}
+.main
+{
+	width: 80%;
+	height: 60%;
+	top: 40%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*border: 3px solid yellow;*/
+	/*background-color: rgba(38, 38, 56,0.4)!important;*/
+	
+}
+.headertctn
+{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.header
+{
+	color: #fff;
+	font-size: 2.5vw;
+	font-weight: 600;
+	text-align: center;
+	align-self: center;
+	visibility: visible;
+}
+.headergreen
+{
+	color: #00e670;
+}
+.statusctn
+{
+	width: 100%;
+	height: 10%;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*background-color: lightblue;*/
+}
+.status
+{
+	width: fit-content;
+	height: fit-content;
+	color: #161725;
+	font-size: 1.5vw;
+	padding: 5px 5px 5px 5px;
+	border-radius: 0.5vw;
+	font-weight: 400;
+	text-align: center;
+	margin: auto;
+	background-color: #00e670;
+	align-self: center;
+	visibility: hidden;
+}
+.copybar
+{
+	width: 80%;
+	height: 10%;
+	display: flex;
+	margin-top: 5%;
+	flex-direction: row;
+	justify-content: center;
+	background-color: #262638;
+	align-self: center;
+	border-top-left-radius: 1vw;
+	border-bottom-left-radius: 1vw;
+		 border-top-right-radius: 1vw;
+	 border-bottom-right-radius: 1vw;
+
+}
+.textsection
+{
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #262638;
+	align-self: center;
+	border-top-left-radius: 1vw;
+	border-bottom-left-radius: 1vw;
+}
+.code
+{
+	color: #00e670;
+	font-size: 1.75vw;
+	font-weight: 400;
+	text-align: center;
+	align-self: center;
+	visibility: visible;
+}
+.copysection
+{
+	width: 30%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+}
+.copylink
+{
+	width: 100%;
+	height: 100%;
+	background-color: #40405a;
+	display: flex;
+	flex-direction: row;
+	 visibility: visible;
+	 align-self: center;
+	  justify-content: center;
+	  align-items: center;
+	 font-size: 1.25vw;
+	 color: #00e670;
+	 font-weight: 600;
+	 display: inline-block;
+	 outline: none;
+	 border: none;
+	 -webkit-tap-highlight-color: transparent;
+	 border-top-right-radius: 1vw;
+	 border-bottom-right-radius: 1vw;
+}
+.copylink:hover
+{
+	cursor: pointer;
+}
+.btntextctn
+{
+	width: 70%;
+	height: 10%;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	
+
+}
+.bottomtext
+{
+	color: #454c69;
+	font-size: 1.25vw;
+	font-weight: 400;
+	text-align: center;
+	margin: auto;
+	align-self: center;
+	visibility: visible;
+}
+.buttonctn
+{
+	width: 20%;
+	height: 10%;
+	margin-top: 5%;
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+	justify-content: center;
+	/*background-color: #242424;*/
+}
+.signupbtn
+{
+	width: 100%;
+	height: 100%;
+	min-height: 30px;
+	border-radius: 1vw;
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+	background-color: #00e670;
+	display: flex;
+	flex-direction: row;
+	 visibility: visible;
+	 align-self: center;
+	  justify-content: center;
+	  align-items: center;
+	 font-size: 1.25vw;
+	 color: #161725;
+	 font-weight: 600;
+	 display: inline-block;
+	 outline: none;
+	 border: none;
+	 -webkit-tap-highlight-color: transparent;
+
+}
+.signupbtn:hover
+{
+	cursor: pointer;
+}
+@media only screen and (orientation: portrait) {
+.header
+{
+	font-size: 5vw;
+}
+.status
+{
+	font-size: 3vw;
+	border-radius: 1vw;
+}
+.copybar
+{
+	width: 100%;
+}
+.code
+{
+	font-size: 3vw;
+}
+.copylink
+{
+	font-size: 2.5vw;
+}
+.btntextctn
+{
+	width: 100%;
+}
+.bottomtext
+{
+ font-size: 3vw;
+}
+.buttonctn
+{
+	width: 40%;
+}
+.signupbtn
+{
+	 font-size: 3vw;
+
+}
+}
